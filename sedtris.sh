@@ -26,6 +26,7 @@ do
       read -s -n 1 TMP; CMD="$CMD$TMP";
     fi
   fi
+  # here is master comment
   if [ $RES -eq 0 ]
   then
     echo "$CMD"
